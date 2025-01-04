@@ -9,14 +9,15 @@
 
 
 class script(object):
-    START_TXT = """<b> 🎭 Hello {} {},
+    START_TXT = """<b> 🎭 Hello {}
     
 <blockquote>ᴍʏ ɴᴀᴍᴇ ℝ𝕠𝕦𝕥 𝔽𝕚𝕝𝕖 🗃️{}
-I am ʟᴀᴛᴇꜱᴛ ᴀɴᴅ ᴀᴅᴠᴀɴᴄᴇᴅ a permenant file store bot and users can access stored messages by using a shareable link given by me ✨</blockquote>
-<blockquote>🔗 Dɪʀᴇᴄᴛ Mᴏᴠɪᴇ Aᴄᴄᴇꜱꜱ • 📥 Sᴛʀᴇᴀᴍ ᴏʀ Dᴏᴡɴʟᴏᴀᴅ Iɴꜱᴛᴀɴᴛʟʏ • 12 Hᴏᴜʀꜱ ᴡᴀᴛᴄʜ ᴀʟʟ ᴍᴏᴠɪᴇꜱ ʙʏ 1 ᴠᴇʀɪꜰʏ, ɴᴏ ᴀᴅ ɴᴇᴇᴅᴇᴅ! • 🕒 Aᴜᴛᴏ-Dᴇʟᴇᴛᴇ sᴜᴘᴘᴏʀᴛ fᴏʀ ɴᴏ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇ</blockquote>
+I ᴀᴍ ʟᴀᴛᴇꜱᴛ ᴀɴᴅ ᴀᴀᴅᴠᴀɴᴄᴇᴅ ᴀ ᴘᴇʀᴍᴇɴᴀɴᴛ ꜰɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ ᴀɴᴅ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss sᴛᴏʀᴇᴅ ᴍᴇssᴀɢᴇs ʙʏ ᴜsɪɴɢ ᴀ sʜᴀʀᴇᴀʙʟᴇ ʟɪɴᴋ ɢɪᴠᴇɴ ʙʏ ᴍᴇ ✨</blockquote>
+<blockquote>🔗 Dɪʀᴇᴄᴛ Mᴏᴠɪᴇ Aᴄᴄᴇss • 📥 Sᴛʀᴇᴀᴍ ᴏʀ Dᴏᴡɴʟᴏᴀᴅ Iɴsᴛᴀɴᴛʟʏ • 12 Hᴏᴜʀs Wᴀᴛᴄʜ ᴀʟʟ Mᴏᴠɪᴇs ʙʏ 1 ᴠᴇʀɪꜰʏ, ɴᴏ ᴀᴅ nᴇᴇᴅᴇᴅ! • 🕒 Aᴜᴛᴏ-Dᴇʟᴇᴛᴇ Sᴜᴘᴘᴏʀᴛ fᴏʀ ɴᴏ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇ</blockquote>
 
 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://telegram.me/rudraraut'>ℝ𝕆𝕌𝕋 𝕆𝔽𝔽𝕀ℂ𝕀𝔸𝕃</a>
 </b>"""
+
 
 
     
