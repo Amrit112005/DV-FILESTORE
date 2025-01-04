@@ -27,13 +27,13 @@ API_ID = int(environ.get("API_ID", "27778576"))
 API_HASH = environ.get("API_HASH", "fbe65bde59965ea035199d7c848ae3a4")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-PICS = (environ.get('PICS', 'https://envs.sh/_Rp.png')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://envs.sh/rkk.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5094191566').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "MissAngleebot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
-CLONE_MODE = bool(environ.get('CLONE_MODE', True)) # Set True or False
+CLONE_MODE = bool(environ.get('CLONE_MODE', False)) # Set True or False
 
 # If Clone Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
