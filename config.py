@@ -28,7 +28,7 @@ API_HASH = environ.get("API_HASH", "fbe65bde59965ea035199d7c848ae3a4")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 PICS = (environ.get('PICS', 'https://envs.sh/rkk.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5094191566').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5094191566 6204213163').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "MissAngleebot") # without @
 PORT = environ.get("PORT", "8080")
 
