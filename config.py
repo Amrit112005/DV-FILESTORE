@@ -61,11 +61,11 @@ BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "False")), False)
 
 # Verify Info :-
-VERIFY_MODE = bool(environ.get('VERIFY_MODE', False)) # Set True or False
+VERIFY_MODE = bool(environ.get('VERIFY_MODE', True)) # Set True or False
 
 # If Verify Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-SHORTLINK_URL = environ.get("SHORTLINK_URL", "ModiJiUrl.com") # shortlink domain without https://
-SHORTLINK_API = environ.get("SHORTLINK_API", "8449091dfe889eb76b46a30385b5f025af4940e6") # shortlink api
+SHORTLINK_URL = environ.get("SHORTLINK_URL", "https://linkshortify.com") # shortlink domain without https://
+SHORTLINK_API = environ.get("SHORTLINK_API", "36494129e6aa208b9dc0a39e68fbd3e4185d316d") # shortlink api
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/+fyNoeH-T5mU1YjNl") # how to open link 
 
 # Website Info:
